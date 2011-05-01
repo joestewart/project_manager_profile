@@ -1,5 +1,5 @@
 name = Project Manager Profile
-description = Install with Drupal Project Manager pre-configured for use.
+description = Install with Drupal Project Manager enabled for use.
 core = 7.x
 
 dependencies[] = block
@@ -18,11 +18,11 @@ dependencies[] = taxonomy
 dependencies[] = dblog
 dependencies[] = search
 dependencies[] = shortcut
+dependencies[] = toolbar
 dependencies[] = overlay
 dependencies[] = field_ui
 dependencies[] = file
 dependencies[] = rdf
-
 
 dependencies[] = project_manager
 ; project manager submodules
