@@ -1,4 +1,4 @@
-name = Proejct Manager Profile
+name = Project Manager Profile
 description = Install with Drupal Project Manager pre-configured for use.
 core = 7.x
 
@@ -23,6 +23,10 @@ dependencies[] = field_ui
 dependencies[] = file
 dependencies[] = rdf
 
+
 dependencies[] = project_manager
+; project manager submodules
+dependencies[] = manage_git
+dependencies[] = environments
 
 files[] = commerce_kickstart.profile

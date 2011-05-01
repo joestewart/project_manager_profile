@@ -1,4 +1,4 @@
-; Watershed Now Profile 
+; Project Manager Profile 
 
 ; This makefile does not build the full environment.  It only downloads the specific needs to run the profile.
 ; It usually would be run automatically when using distro.make, but can be executed manually.  
