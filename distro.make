@@ -12,3 +12,8 @@ projects[drupal][version] = "7"
 projects[project_manager_profile][type] = profile
 projects[project_manager_profile][download][type] = git
 projects[project_manager_profile][download][url] = git://github.com/joestewart/project_manager_profile.git
+
+; Contrib Modules
+
+projects[entity][subdir] = contrib
+; projects[entity][version] = 1.x-dev
